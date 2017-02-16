@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Foosball Ranking</string>
+    <string name="users">Users</string>
+    <string name="matches">Matches</string>
+    <string name="stats">Stats</string>
+    <string name="new_player_title">Add new player</string>
+    <string name="new_match_title">Add new match</string>
+    <string name="new_users_desc">Complete all fields in order to add a new player.</string>
+    <string name="new_match_desc">Choose the type of match and complete the fields.</string>
+    <string name="add">add</string>
+    <string name="players">Players</string>
+    <string name="players_stats">Player\'s statistics</string>
+    <string name="player_stats_desc">Choose two players from the list to load the statistics</string>
+    <string name="warning">Warning!</string>
+    <string name="insert_two_players">Please, add at least two players to create a match.</string>
+    <string name="match_added">Match added!</string>
+    <string name="insert_all_scores">Please, insert all scores.</string>
+    <string name="insert_all_fields">Please, insert all fields.</string>
+    <string name="error">Error!</string>
+    <string name="player_exists">A player with the same email already exists!</string>
+    <string name="player_added">Player added!</string>
+    <string name="no_stats">No stats to display.</string>
+    <string name="choose_different_players">Please choos two different players.</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">E-mail Address</string>
+    <string name="player">Player</string>
+    <string name="date">Date</string>
+    <string name="score">Score</string>
+</resources>

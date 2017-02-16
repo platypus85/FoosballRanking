@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/player_stats_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:text="@string/players_stats"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:id="@+id/player_stats_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/player_stats_desc"
+        android:textSize="@dimen/text_size" />
+
+    <Spinner
+        android:id="@+id/player1_stats_spinner"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+
+        android:id="@+id/player2_stats_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+      />
+
+
+    <TextView
+        android:id="@+id/stats1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/stats"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/stats2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/stats"
+        android:textSize="@dimen/text_size" />
+
+</LinearLayout>
